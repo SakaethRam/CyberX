@@ -1,0 +1,518 @@
+{
+    "run_number": 2,
+    "phases": {
+        "phase1": {
+            "description": "Raw collected reports (title, url, content preview)",
+            "collection_method": "Regular Scraping (requests + BS4)",
+            "collected_count": 15,
+            "reports": [
+                {
+                    "url": "https://thehackernews.com/2025/12/chinese-hackers-have-started-exploiting.html",
+                    "title": "Chinese Hackers Have Started Exploiting the Newly Disclosed React2Shell Vulnerability",
+                    "content_preview": "Two hacking groups with ties to China have been observed weaponizing the newly disclosed security flaw in React Server Components (RSC) within hours of it becoming public knowledge. The vulnerability in question isCVE-2025-55182(CVSS score: 10.0), akaReact2Shell, which allowsunauthenticated remote code execution. It has been addressed in React versions 19.0.1, 19.1.2, and 19.2.1. According to a new report shared by Amazon Web Services (AWS), two China-linked threat actors known as Earth Lamia an..."
+                },
+                {
+                    "url": "https://thehackernews.com/2025/12/react2shell-exploitation-escalates-into.html",
+                    "title": "React2Shell Exploitation Escalates into Large-Scale Global Attacks, Forcing Emergency Mitigation",
+                    "content_preview": "The U.S. Cybersecurity and Infrastructure Security Agency (CISA) hasurgedfederal agencies to patch the recentReact2Shellvulnerability by December 12, 2025, amid reports of widespread exploitation. The critical vulnerability, tracked asCVE-2025-55182(CVSS score: 10.0), affects the React Server Components (RSC) Flight protocol. The underlying cause of the issue is an unsafe deserialization that allows an attacker to inject malicious logic that the server executes in a privileged context. It also a..."
+                },
+                {
+                    "url": "https://thehackernews.com/2025/12/warning-winrar-vulnerability-cve-2025.html",
+                    "title": "Warning: WinRAR Vulnerability CVE-2025-6218 Under Active Attack by Multiple Threat Groups",
+                    "content_preview": "The U.S. Cybersecurity and Infrastructure Security Agency (CISA) on Tuesdayaddeda security flaw impacting the WinRAR file archiver and compression utility to its Known Exploited Vulnerabilities (KEV) catalog, citing evidence of active exploitation. The vulnerability, tracked asCVE-2025-6218(CVSS score: 7.8), is a path traversal bug that could enable code execution. However, for exploitation to succeed, it requires a prospective target to visit a malicious page or open a malicious file. \"RARLAB W..."
+                },
+                {
+                    "url": "https://thehackernews.com/2025/12/threatsday-bulletin-spyware-alerts.html",
+                    "title": "ThreatsDay Bulletin: Spyware Alerts, Mirai Strikes, Docker Leaks, ValleyRAT Rootkit — and 20 More Stories",
+                    "content_preview": "This week's cyber stories show how fast the online world can turn risky. Hackers are sneaking malware into movie downloads, browser add-ons, and even software updates people trust. Tech giants and governments are racing to plug new holes while arguing over privacy and control. And researchers keep uncovering just how much of our digital life is still wide open. The new Threatsday Bulletin brings it all together—big hacks, quiet exploits, bold arrests, and smart discoveries that explain where cyb..."
+                },
+                {
+                    "url": "https://thehackernews.com/2025/12/chrome-targeted-by-active-in-wild.html",
+                    "title": "Chrome Targeted by Active In-the-Wild Exploit Tied to Undisclosed High-Severity Flaw",
+                    "content_preview": "Google on Wednesday shipped security updates for its Chrome browser to address three security flaws, including one it said has come under active exploitation in the wild. The vulnerability, rated high in severity, is being tracked under the Chromium issue tracker ID \"466192044.\" Unlike other disclosures, Google has opted to keep information about the CVE identifier, the affected component, and the nature of the flaw under wraps. However, aGitHub commitfor the Chromium bug ID has revealed that th..."
+                },
+                {
+                    "url": "https://thehackernews.com/2025/12/unpatched-gogs-zero-day-exploited.html",
+                    "title": "Unpatched Gogs Zero-Day Exploited Across 700+ Instances Amid Active Attacks",
+                    "content_preview": "A high-severity unpatched security vulnerability inGogshas come under active exploitation, with more than 700 compromised instances accessible over the internet, according tonew findingsfrom Wiz. The flaw, tracked asCVE-2025-8110(CVSS score: 8.7), is a case of file overwrite in the file update API of the Go-based self-hosted Git service. A fix for the issue is said to be currently in the works. The company said it accidentally discovered the zero-day flaw in July 2025 while investigating a malwa..."
+                },
+                {
+                    "url": "https://thehackernews.com/2025/12/storm-0249-escalates-ransomware-attacks.html",
+                    "title": "Storm-0249 Escalates Ransomware Attacks with ClickFix, Fileless PowerShell, and DLL Sideloading",
+                    "content_preview": "The threat actor known asStorm-0249is likely shifting from its role as an initial access broker to adopt a combination of more advanced tactics like domain spoofing, DLL side-loading, and fileless PowerShell execution to facilitate ransomware attacks. \"These methods allow them to bypass defenses, infiltrate networks, maintain persistence, and operate undetected, raising serious concerns for security teams,\" ReliaQuestsaidin a report shared with The Hacker News. Storm-0249 is the moniker assigned..."
+                },
+                {
+                    "url": "https://thehackernews.com/2025/12/nanoremote-malware-uses-google-drive.html",
+                    "title": "NANOREMOTE Malware Uses Google Drive API for Hidden Control on Windows Systems",
+                    "content_preview": "Cybersecurity researchers have disclosed details of a new fully-featured Windows backdoor calledNANOREMOTEthat uses the Google Drive API for command-and-control (C2) purposes. According to areportfrom Elastic Security Labs, the malware shares code similarities with another implant codenamedFINALDRAFT(aka Squidoor) that employs Microsoft Graph API for C2. FINALDRAFT is attributed to a threat cluster known as REF7707 (aka CL-STA-0049, Earth Alux, and Jewelbug). \"One of the malware's primary featur..."
+                },
+                {
+                    "url": "https://thehackernews.com/2025/11/apt24-deploys-badaudio-in-years-long.html",
+                    "title": "APT24 Deploys BADAUDIO in Years-Long Espionage Hitting Taiwan and 1,000+ Domains",
+                    "content_preview": "A China-nexus threat actor known asAPT24has been observed using a previously undocumented malware dubbed BADAUDIO to establish persistent remote access to compromised networks as part of a nearly three-year campaign. \"While earlier operations relied on broad strategic web compromises to compromise legitimate websites, APT24 has recently pivoted to using more sophisticated vectors targeting organizations in Taiwan,\" Google Threat Intelligence Group (GTIG) researchers Harsh Parashar, Tierra Duncan..."
+                },
+                {
+                    "url": "https://thehackernews.com/2025/08/charon-ransomware-hits-middle-east.html",
+                    "title": "Charon Ransomware Hits Middle East Sectors Using APT-Level Evasion Tactics",
+                    "content_preview": "Cybersecurity researchers have discovered a new campaign that employs a previously undocumented ransomware family called Charon to target the Middle East's public sector and aviation industry. The threat actor behind the activity, according to Trend Micro, exhibited tactics mirroring those of advanced persistent threat (APT) groups, such as DLL side-loading, process injection, and the ability to evade endpoint detection and response (EDR) software. The DLL side-loading techniques resemble those ..."
+                },
+                {
+                    "url": "https://thehackernews.com/2025/12/5-threats-that-reshaped-web-security.html",
+                    "title": "5 Threats That Reshaped Web Security This Year [2025]",
+                    "content_preview": "As 2025 draws to a close, security professionals face a sobering realization: the traditional playbook for web security has become dangerously obsolete. AI-powered attacks, evolving injection techniques, and supply chain compromises affecting hundreds of thousands of websites forced a fundamental rethink of defensive strategies. Here are the five threats that reshaped web security this year, and why the lessons learned will define digital protection for years to come. Natural language coding,\"vi..."
+                },
+                {
+                    "url": "https://thehackernews.com/2025/12/microsoft-issues-security-fixes-for-56.html",
+                    "title": "Microsoft Issues Security Fixes for 56 Flaws, Including Active Exploit and Two Zero-Days",
+                    "content_preview": "Microsoft closed out 2025 with patches for56 security flawsin various products across the Windows platform, including one vulnerability that has been actively exploited in the wild. Of the 56 flaws, three are rated Critical, and 53 are rated Important in severity. Two other defects are listed as publicly known at the time of the release. These include 29 privilege escalation, 18 remote code execution, four information disclosure, three denial-of-service, and two spoofing vulnerabilities. In tota..."
+                },
+                {
+                    "url": "https://thehackernews.com/2025/12/critical-xxe-bug-cve-2025-66516-cvss.html",
+                    "title": "Critical XXE Bug CVE-2025-66516 (CVSS 10.0) Hits Apache Tika, Requires Urgent Patch",
+                    "content_preview": "A critical security flaw has been disclosed in Apache Tika that could result in an XML external entity (XXE) injection attack. The vulnerability, tracked asCVE-2025-66516, is rated 10.0 on the CVSS scoring scale, indicating maximum severity. \"Critical XXE in Apache Tika tika-core (1.13-3.2.1), tika-pdf-module (2.0.0-3.2.1) and tika-parsers (1.13-1.28.5) modules on all platforms allows an attacker to carry out XML External Entity injection via a crafted XFA file inside of a PDF,\" according to ana..."
+                },
+                {
+                    "url": "https://thehackernews.com/2025/11/fortinet-warns-of-new-fortiweb-cve-2025.html",
+                    "title": "Fortinet Warns of New FortiWeb CVE-2025-58034 Vulnerability Exploited in the Wild",
+                    "content_preview": "Fortinet has warned of a new security flaw in FortiWeb that it said has been exploited in the wild. The medium-severity vulnerability, tracked asCVE-2025-58034, carries a CVSS score of 6.7 out of a maximum of 10.0. \"An Improper Neutralization of Special Elements used in an OS Command ('OS Command Injection') vulnerability [CWE-78] in FortiWeb may allow an authenticated attacker to execute unauthorized code on the underlying system via crafted HTTP requests or CLI commands,\" the companysaidin a T..."
+                },
+                {
+                    "url": "https://thehackernews.com/2025/12/new-advanced-phishing-kits-use-ai-and.html",
+                    "title": "New Advanced Phishing Kits Use AI and MFA Bypass Tactics to Steal Credentials at Scale",
+                    "content_preview": "Cybersecurity researchers have documented four new phishing kits namedBlackForce, GhostFrame, InboxPrime AI, and Spidermanthat are capable of facilitating credential theft at scale. BlackForce, first detected in August 2025, is designed to steal credentials and perform Man-in-the-Browser (MitB) attacks to capture one-time passwords (OTPs) and bypass multi-factor authentication (MFA). The kit is sold on Telegram forums for anywhere between €200 ($234) and €300 ($351). The kit, according toZscaler..."
+                }
+            ],
+            "failed_urls": []
+        },
+        "phase2": {
+            "description": "Extracted structured threat intelligence documents",
+            "used_llm": true,
+            "used_mock": true,
+            "document_count": 15,
+            "documents": [
+                {
+                    "title": "Mock Threat Report 1 (Recent 2025)",
+                    "source": "Simulated Feed",
+                    "threat_intelligence": {
+                        "actor": "Earth Lamia",
+                        "aliases": [
+                            "China-nexus"
+                        ],
+                        "ttps": [
+                            "RCE Exploitation"
+                        ],
+                        "targets": [
+                            "Global Servers"
+                        ],
+                        "iocs": [],
+                        "timeline": "Dec 2025"
+                    }
+                },
+                {
+                    "title": "Mock Threat Report 2 (Recent 2025)",
+                    "source": "Simulated Feed",
+                    "threat_intelligence": {
+                        "actor": "Jackpot Panda",
+                        "aliases": [
+                            "China-nexus"
+                        ],
+                        "ttps": [
+                            "Crypto Mining"
+                        ],
+                        "targets": [
+                            "Web Infrastructure"
+                        ],
+                        "iocs": [],
+                        "timeline": "Dec 2025"
+                    }
+                },
+                {
+                    "title": "Mock Threat Report 3 (Recent 2025)",
+                    "source": "Simulated Feed",
+                    "threat_intelligence": {
+                        "actor": "STAC6565",
+                        "aliases": [
+                            "Gold Blade"
+                        ],
+                        "ttps": [
+                            "Ransomware Deployment"
+                        ],
+                        "targets": [
+                            "Canada"
+                        ],
+                        "iocs": [],
+                        "timeline": "Dec 2025"
+                    }
+                },
+                {
+                    "title": "Mock Threat Report 4 (Recent 2025)",
+                    "source": "Simulated Feed",
+                    "threat_intelligence": {
+                        "actor": "VolkLocker",
+                        "aliases": [],
+                        "ttps": [
+                            "Ransomware"
+                        ],
+                        "targets": [
+                            "Windows/Linux"
+                        ],
+                        "iocs": [],
+                        "timeline": "Dec 2025"
+                    }
+                },
+                {
+                    "title": "Mock Threat Report 5 (Recent 2025)",
+                    "source": "Simulated Feed",
+                    "threat_intelligence": {
+                        "actor": "PassiveNeuron",
+                        "aliases": [
+                            "APT"
+                        ],
+                        "ttps": [
+                            "Espionage, Neursite"
+                        ],
+                        "targets": [
+                            "Global"
+                        ],
+                        "iocs": [],
+                        "timeline": "Oct 2025"
+                    }
+                },
+                {
+                    "title": "Mock Threat Report 6 (Recent 2025)",
+                    "source": "Simulated Feed",
+                    "threat_intelligence": {
+                        "actor": "APT31",
+                        "aliases": [
+                            "Judgement Panda"
+                        ],
+                        "ttps": [
+                            "CloudyLoader"
+                        ],
+                        "targets": [
+                            "Russian IT"
+                        ],
+                        "iocs": [],
+                        "timeline": "Nov 2025"
+                    }
+                },
+                {
+                    "title": "Mock Threat Report 7 (Recent 2025)",
+                    "source": "Simulated Feed",
+                    "threat_intelligence": {
+                        "actor": "Storm-0249",
+                        "aliases": [],
+                        "ttps": [
+                            "ClickFix, Ransomware"
+                        ],
+                        "targets": [
+                            "Multiple Sectors"
+                        ],
+                        "iocs": [],
+                        "timeline": "Dec 2025"
+                    }
+                },
+                {
+                    "title": "Mock Threat Report 8 (Recent 2025)",
+                    "source": "Simulated Feed",
+                    "threat_intelligence": {
+                        "actor": "SideWinder",
+                        "aliases": [
+                            "APT-C-17"
+                        ],
+                        "ttps": [
+                            "Phishing"
+                        ],
+                        "targets": [
+                            "Maritime, Nuclear"
+                        ],
+                        "iocs": [],
+                        "timeline": "Mar 2025"
+                    }
+                },
+                {
+                    "title": "Mock Threat Report 9 (Recent 2025)",
+                    "source": "Simulated Feed",
+                    "threat_intelligence": {
+                        "actor": "Blind Eagle",
+                        "aliases": [
+                            "APT-C-36"
+                        ],
+                        "ttps": [
+                            "RATs, Phishing"
+                        ],
+                        "targets": [
+                            "Colombia"
+                        ],
+                        "iocs": [],
+                        "timeline": "Aug 2025"
+                    }
+                },
+                {
+                    "title": "Mock Threat Report 10 (Recent 2025)",
+                    "source": "Simulated Feed",
+                    "threat_intelligence": {
+                        "actor": "Charon",
+                        "aliases": [],
+                        "ttps": [
+                            "Ransomware"
+                        ],
+                        "targets": [
+                            "Middle East"
+                        ],
+                        "iocs": [],
+                        "timeline": "Aug 2025"
+                    }
+                },
+                {
+                    "title": "Mock Threat Report 11 (Recent 2025)",
+                    "source": "Simulated Feed",
+                    "threat_intelligence": {
+                        "actor": "Storm-2603",
+                        "aliases": [],
+                        "ttps": [
+                            "LockBit Ransomware"
+                        ],
+                        "targets": [
+                            "Multiple"
+                        ],
+                        "iocs": [],
+                        "timeline": "Oct 2025"
+                    }
+                },
+                {
+                    "title": "Mock Threat Report 12 (Recent 2025)",
+                    "source": "Simulated Feed",
+                    "threat_intelligence": {
+                        "actor": "GrayBravo",
+                        "aliases": [
+                            "TAG-150"
+                        ],
+                        "ttps": [
+                            "CastleLoader"
+                        ],
+                        "targets": [
+                            "Multiple Sectors"
+                        ],
+                        "iocs": [],
+                        "timeline": "Dec 2025"
+                    }
+                },
+                {
+                    "title": "Mock Threat Report 13 (Recent 2025)",
+                    "source": "Simulated Feed",
+                    "threat_intelligence": {
+                        "actor": "Warp Panda",
+                        "aliases": [
+                            "BRICKSTORM"
+                        ],
+                        "ttps": [
+                            "Backdoor"
+                        ],
+                        "targets": [
+                            "Government"
+                        ],
+                        "iocs": [],
+                        "timeline": "Dec 2025"
+                    }
+                },
+                {
+                    "title": "Mock Threat Report 14 (Recent 2025)",
+                    "source": "Simulated Feed",
+                    "threat_intelligence": {
+                        "actor": "APT41",
+                        "aliases": [
+                            "Brass Typhoon"
+                        ],
+                        "ttps": [
+                            "Phishing"
+                        ],
+                        "targets": [
+                            "US Officials"
+                        ],
+                        "iocs": [],
+                        "timeline": "2025"
+                    }
+                },
+                {
+                    "title": "Mock Threat Report 15 (Recent 2025)",
+                    "source": "Simulated Feed",
+                    "threat_intelligence": {
+                        "actor": "Aquatic Panda",
+                        "aliases": [],
+                        "ttps": [
+                            "Espionage"
+                        ],
+                        "targets": [
+                            "Global"
+                        ],
+                        "iocs": [],
+                        "timeline": "2025"
+                    }
+                }
+            ],
+            "error": "404 models/gemini-pro is not found for API version v1beta, or is not supported for generateContent. Call ListModels to see the list of available models and their supported methods."
+        },
+        "phase3": {
+            "description": "Knowledge base entries (full list with summary fields)",
+            "total_entries": 15,
+            "entries": [
+                {
+                    "index": 1,
+                    "actor": "Earth Lamia",
+                    "title": "Mock Threat Report 1 (Recent 2025)",
+                    "source": "Simulated Feed",
+                    "aliases": "China-nexus",
+                    "ttps": "RCE Exploitation",
+                    "targets": "Global Servers"
+                },
+                {
+                    "index": 2,
+                    "actor": "Jackpot Panda",
+                    "title": "Mock Threat Report 2 (Recent 2025)",
+                    "source": "Simulated Feed",
+                    "aliases": "China-nexus",
+                    "ttps": "Crypto Mining",
+                    "targets": "Web Infrastructure"
+                },
+                {
+                    "index": 3,
+                    "actor": "STAC6565",
+                    "title": "Mock Threat Report 3 (Recent 2025)",
+                    "source": "Simulated Feed",
+                    "aliases": "Gold Blade",
+                    "ttps": "Ransomware Deployment",
+                    "targets": "Canada"
+                },
+                {
+                    "index": 4,
+                    "actor": "VolkLocker",
+                    "title": "Mock Threat Report 4 (Recent 2025)",
+                    "source": "Simulated Feed",
+                    "aliases": "",
+                    "ttps": "Ransomware",
+                    "targets": "Windows/Linux"
+                },
+                {
+                    "index": 5,
+                    "actor": "PassiveNeuron",
+                    "title": "Mock Threat Report 5 (Recent 2025)",
+                    "source": "Simulated Feed",
+                    "aliases": "APT",
+                    "ttps": "Espionage, Neursite",
+                    "targets": "Global"
+                },
+                {
+                    "index": 6,
+                    "actor": "APT31",
+                    "title": "Mock Threat Report 6 (Recent 2025)",
+                    "source": "Simulated Feed",
+                    "aliases": "Judgement Panda",
+                    "ttps": "CloudyLoader",
+                    "targets": "Russian IT"
+                },
+                {
+                    "index": 7,
+                    "actor": "Storm-0249",
+                    "title": "Mock Threat Report 7 (Recent 2025)",
+                    "source": "Simulated Feed",
+                    "aliases": "",
+                    "ttps": "ClickFix, Ransomware",
+                    "targets": "Multiple Sectors"
+                },
+                {
+                    "index": 8,
+                    "actor": "SideWinder",
+                    "title": "Mock Threat Report 8 (Recent 2025)",
+                    "source": "Simulated Feed",
+                    "aliases": "APT-C-17",
+                    "ttps": "Phishing",
+                    "targets": "Maritime, Nuclear"
+                },
+                {
+                    "index": 9,
+                    "actor": "Blind Eagle",
+                    "title": "Mock Threat Report 9 (Recent 2025)",
+                    "source": "Simulated Feed",
+                    "aliases": "APT-C-36",
+                    "ttps": "RATs, Phishing",
+                    "targets": "Colombia"
+                },
+                {
+                    "index": 10,
+                    "actor": "Charon",
+                    "title": "Mock Threat Report 10 (Recent 2025)",
+                    "source": "Simulated Feed",
+                    "aliases": "",
+                    "ttps": "Ransomware",
+                    "targets": "Middle East"
+                },
+                {
+                    "index": 11,
+                    "actor": "Storm-2603",
+                    "title": "Mock Threat Report 11 (Recent 2025)",
+                    "source": "Simulated Feed",
+                    "aliases": "",
+                    "ttps": "LockBit Ransomware",
+                    "targets": "Multiple"
+                },
+                {
+                    "index": 12,
+                    "actor": "GrayBravo",
+                    "title": "Mock Threat Report 12 (Recent 2025)",
+                    "source": "Simulated Feed",
+                    "aliases": "TAG-150",
+                    "ttps": "CastleLoader",
+                    "targets": "Multiple Sectors"
+                },
+                {
+                    "index": 13,
+                    "actor": "Warp Panda",
+                    "title": "Mock Threat Report 13 (Recent 2025)",
+                    "source": "Simulated Feed",
+                    "aliases": "BRICKSTORM",
+                    "ttps": "Backdoor",
+                    "targets": "Government"
+                },
+                {
+                    "index": 14,
+                    "actor": "APT41",
+                    "title": "Mock Threat Report 14 (Recent 2025)",
+                    "source": "Simulated Feed",
+                    "aliases": "Brass Typhoon",
+                    "ttps": "Phishing",
+                    "targets": "US Officials"
+                },
+                {
+                    "index": 15,
+                    "actor": "Aquatic Panda",
+                    "title": "Mock Threat Report 15 (Recent 2025)",
+                    "source": "Simulated Feed",
+                    "aliases": "",
+                    "ttps": "Espionage",
+                    "targets": "Global"
+                }
+            ]
+        },
+        "phase4": {
+            "description": "RAG query system status",
+            "knowledge_base_available": true,
+            "llm_available": true
+        },
+        "phase5": {
+            "description": "CyberX AI B&A Session Session",
+            "b&a_questions": [
+                "which threat actors are china-nexus?",
+                "what are the most active ransomware groups in 2025?",
+                "recent activities of medusa?",
+                "recent activities of apt31?"
+            ],
+            "status": "completed",
+            "queries": [
+                "Recent activities of APT31?",
+                "recent activities of medusa?",
+                "Which threat actors are China-nexus?"
+            ]
+        }
+    }
+}
